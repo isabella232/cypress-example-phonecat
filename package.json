@@ -5,16 +5,18 @@
   "description": "A tutorial application for AngularJS",
   "repository": "https://github.com/angular/angular-phonecat",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "bower": "^1.7.7",
-    "cypress": "1.0.2",
     "http-server": "^0.9.0",
+    "npm-run-all": "4.1.1"
+  },
+  "devDependencies": {
+    "cypress": "1.0.2",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
-    "npm-run-all": "4.1.1",
     "protractor": "^4.0.9"
   },
   "scripts": {
