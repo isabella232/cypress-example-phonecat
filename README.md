@@ -1,4 +1,4 @@
-# Phonecat [![Build status][ci-image] ][ci-url]
+# Phonecat [![Build status][ci-image] ][ci-url][![Build status](https://ci.appveyor.com/api/projects/status/i5jmxcm0d36o1yef?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-phonecat)
 
 [ci-image]: https://travis-ci.org/cypress-io/cypress-example-phonecat.svg?branch=master
 [ci-url]: https://travis-ci.org/cypress-io/cypress-example-phonecat
