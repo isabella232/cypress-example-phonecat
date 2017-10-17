@@ -20,12 +20,14 @@
     "protractor": "^4.0.9"
   },
   "scripts": {
-    "cypress:run": "cypress run --record",
+    "cypress:record": "cypress run --record",
+    "cypress:run": "cypress run",
     "postinstall": "bower install",
     "start": "http-server ./app -a localhost -p 8000 -c-1",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run",
     "test-ci": "run-p --race start cypress:run",
+    "record-ci": "run-p --race start cypress:record",
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",
