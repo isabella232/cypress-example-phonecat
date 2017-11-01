@@ -22,6 +22,8 @@
   "scripts": {
     "cypress:record": "cypress run --record",
     "cypress:run": "cypress run",
+    "cypress:version": "cypress version",
+    "cypress:verify": "cypress verify",
     "postinstall": "bower install",
     "start": "http-server ./app -a localhost -p 8000 -c-1",
     "test": "karma start karma.conf.js",
