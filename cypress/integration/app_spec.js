@@ -27,19 +27,19 @@ describe('PhoneCat Application', function() {
 
       cy.get('@q').type('tablet')
       cy.ng('binding', 'phone.name')
-        .should(function($names){
-          expect(getNames($names)).to.deep.eq [
+        .should(function ($names) {
+          expect(getNames($names), 'default order of names').to.deep.eq([
             'Motorola XOOM™ with Wi-Fi',
             'MOTOROLA XOOM™'
-          ]
+          ])
         })
       cy.ng('model', '$ctrl.orderProp').select('name')
       cy.ng('binding', 'phone.name')
-        .should(function($names){
-          expect(getNames($names)).to.deep.eq [
+        .should(function ($names) {
+          expect(getNames($names)).to.deep.eq([
             'MOTOROLA XOOM™',
             'Motorola XOOM™ with Wi-Fi'
-          ]
+          ])
         })
     })
 
