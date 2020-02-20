@@ -1,6 +1,4 @@
-# Phonecat [![Build status][ci-image] ][ci-url][![Build status](https://ci.appveyor.com/api/projects/status/i5jmxcm0d36o1yef?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-phonecat)
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/cypress-io/cypress-example-phonecat.svg)](https://greenkeeper.io/)
+# Phonecat [![Build status][ci-image] ][ci-url][![Build status](https://ci.appveyor.com/api/projects/status/i5jmxcm0d36o1yef?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-phonecat) [![renovate-app badge][renovate-badge]][renovate-app]
 
 [ci-image]: https://travis-ci.org/cypress-io/cypress-example-phonecat.svg?branch=master
 [ci-url]: https://travis-ci.org/cypress-io/cypress-example-phonecat
@@ -12,6 +10,8 @@ The Cypress tests match up 1:1 so they can be directly compared to the [original
 Each test covers the same functionality found in the protractor tests, and additionally new tests have been added to showcase functionality that exists only in Cypress.
 
 The [tests are heavily commented](cypress/integration/app_spec.js) to ease you into the Cypress API.
+
+Read [Angular + Cypress = Love](https://www.cypress.io/blog/2018/03/20/angular-cypress-love/) and [An Alternative to Protractor for Angular Projects](https://www.cypress.io/blog/2017/12/11/an-alternative-to-protractor-for-angular-projects/)
 
 ## Help + Testing
 
@@ -58,3 +58,6 @@ You should see the Phonecat app up and running. We are now ready to run Cypress 
 ### 4. Run in Continuous Integration
 
 [Follow these instructions to run the tests in CI.](https://on.cypress.io/continuous-integration)
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
