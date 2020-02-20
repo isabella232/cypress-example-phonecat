@@ -1,7 +1,7 @@
 # Phonecat [![Build status][ci-image] ][ci-url][![Build status](https://ci.appveyor.com/api/projects/status/i5jmxcm0d36o1yef?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-phonecat) [![renovate-app badge][renovate-badge]][renovate-app]
 
-[ci-image]: https://travis-ci.org/cypress-io/cypress-example-phonecat.svg?branch=master
-[ci-url]: https://travis-ci.org/cypress-io/cypress-example-phonecat
+[ci-image]: https://circleci.com/gh/cypress-io/cypress-example-phonecat/tree/master.svg?style=svg
+[ci-url]: https://circleci.com/gh/cypress-io/cypress-example-phonecat/tree/master
 
 This repo contains a forked version of [the original  Angular Phonecat example app](https://github.com/angular/angular-phonecat) with the e2e tests written in Cypress.
 
